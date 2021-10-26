@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>¿ÚËãÌâ¿¨</title>
+    <title>å£ç®—é¢˜å¡</title>
     <meta http-equiv="Content-Type" content="text/html; charset=GBK">
     <script src="https://how2j.cn/study/js/jquery/2.0.0/jquery.min.js"></script>
     <link href="https://how2j.cn/study/css/bootstrap/3.3.6/bootstrap.min.css" rel="stylesheet">
@@ -173,7 +173,7 @@
                     score += 20;
                 }
             }
-            $("#k2").text("ÄãµÄ·ÖÊýÊÇ£º" + score);
+            $("#k2").text("ä½ çš„åˆ†æ•°æ˜¯ï¼š" + score);
             $("#myModal3").modal();
         }
 
@@ -183,27 +183,27 @@
     </script>
 </head>
 <body>
-<a href="tetris.html" style="font-size: 200%">ÎÒÒªÍæ</a>
+<a href="tetris.html" style="font-size: 200%">æˆ‘è¦çŽ©</a>
 <div style="position:absolute;left:4%;top:10%;width:200px">
     <div class="list-group-item title" onclick="displayItem()"
          style="font-size:125%;background-color:#dff0d8;">
-        <span>¼ÆËã</span>
+        <span>è®¡ç®—</span>
         <span class="glyphicon glyphicon-resize-small pull-right"></span>
     </div>
     <div class="list-group-item operation" onclick="displayAddElement()">
         <span class="glyphicon glyphicon-tags"></span>
-        &nbsp;¼Ó
+        &nbsp;åŠ 
     </div>
-    <div class="list-group-item figure add" onclick="activate1()">10ÒÔÄÚ</div>
-    <div class="list-group-item figure add" onclick="activate2()">100ÒÔÄÚ</div>
-    <div class="list-group-item figure add" onclick="activate3()">1000ÒÔÄÚ</div>
+    <div class="list-group-item figure add" onclick="activate1()">10ä»¥å†…</div>
+    <div class="list-group-item figure add" onclick="activate2()">100ä»¥å†…</div>
+    <div class="list-group-item figure add" onclick="activate3()">1000ä»¥å†…</div>
     <div class="list-group-item operation" onclick="displayMinusElement()">
         <span class="glyphicon glyphicon-tags"></span>
-        &nbsp;¼õ
+        &nbsp;å‡
     </div>
-    <div class="list-group-item figure minus" onclick="activate4()">10ÒÔÄÚ</div>
-    <div class="list-group-item figure minus" onclick="activate5()">100ÒÔÄÚ</div>
-    <div class="list-group-item figure minus" onclick="activate6()">1000ÒÔÄÚ</div>
+    <div class="list-group-item figure minus" onclick="activate4()">10ä»¥å†…</div>
+    <div class="list-group-item figure minus" onclick="activate5()">100ä»¥å†…</div>
+    <div class="list-group-item figure minus" onclick="activate6()">1000ä»¥å†…</div>
 </div>
 <div class="test" style="position:absolute;left:40%;top:10%;font-size:150%;display:none;">
     <div>
@@ -226,7 +226,7 @@
         <span class="expression"></span>
         <input type="text" class="res" size="1">
     </div>
-    <input type="button" class="btn btn-primary" value="Ìá½»" onclick="openModal()"
+    <input type="button" class="btn btn-primary" value="æäº¤" onclick="openModal()"
            style="position:absolute;left:50%;transform:translate(-50%,50%);">
 </div>
 <div class="modal fade" id="myModal1" data-backdrop="static">
@@ -234,18 +234,18 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button data-dismiss="modal" class="close">
-                    <span>¡Á</span>
+                    <span>Ã—</span>
                 </button>
                 <h4 class="modal-title">
-                    ÓÑÇéÌáÊ¾
+                    å‹æƒ…æç¤º
                 </h4>
             </div>
             <div class="modal-body">
-                Äã»¹ÓÐÌâÄ¿Ã»×öÍê£¬ÕæµÄÒª½»Âð£¿
+                ä½ è¿˜æœ‰é¢˜ç›®æ²¡åšå®Œï¼ŒçœŸçš„è¦äº¤å—ï¼Ÿ
             </div>
             <div class="modal-footer">
-                <input type="button" class="btn btn-default" value="¼ÌÐø×ö" data-dismiss="modal">
-                <input type="button" class="btn btn-primary" value="ÎÒÒª½»" data-dismiss="modal"
+                <input type="button" class="btn btn-default" value="ç»§ç»­åš" data-dismiss="modal">
+                <input type="button" class="btn btn-primary" value="æˆ‘è¦äº¤" data-dismiss="modal"
                        onclick="displayResult()">
             </div>
         </div>
@@ -256,18 +256,18 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button data-dismiss="modal" class="close">
-                    <span>¡Á</span>
+                    <span>Ã—</span>
                 </button>
                 <h4 class="modal-title">
-                    ÓÑÇéÌáÊ¾
+                    å‹æƒ…æç¤º
                 </h4>
             </div>
             <div class="modal-body">
-                ÄãËÆºõÓÐÌâ×ö´íÁË£¬ÕæµÄÒª½»Âð£¿
+                ä½ ä¼¼ä¹Žæœ‰é¢˜åšé”™äº†ï¼ŒçœŸçš„è¦äº¤å—ï¼Ÿ
             </div>
             <div class="modal-footer">
-                <input type="button" class="btn btn-default" value="ÔÙ¸Ä¸Ä" data-dismiss="modal">
-                <input type="button" class="btn btn-primary" value="ÎÒÒª½»" data-dismiss="modal"
+                <input type="button" class="btn btn-default" value="å†æ”¹æ”¹" data-dismiss="modal">
+                <input type="button" class="btn btn-primary" value="æˆ‘è¦äº¤" data-dismiss="modal"
                        onclick="displayResult()">
             </div>
         </div>
@@ -278,17 +278,17 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button data-dismiss="modal" class="close">
-                    <span>¡Á</span>
+                    <span>Ã—</span>
                 </button>
                 <h4 class="modal-title">
-                    ¹§Ï²Äã£¡
+                    æ­å–œä½ ï¼
                 </h4>
             </div>
             <div class="modal-body" id="k2"></div>
             <div class="modal-footer">
-                <input type="button" class="btn btn-default" value="ÔÙ×öÒ»´Î" data-dismiss="modal"
+                <input type="button" class="btn btn-default" value="å†åšä¸€æ¬¡" data-dismiss="modal"
                        onclick="redo()">
-                <input type="button" class="btn btn-primary" value="È·ÈÏ" data-dismiss="modal">
+                <input type="button" class="btn btn-primary" value="ç¡®è®¤" data-dismiss="modal">
             </div>
         </div>
     </div>
